@@ -1,19 +1,10 @@
-# Ignore node_modules in all subfolders
-**/node_modules/
-
-# Ignore build folders (React apps)
-**/build/
-
-# Ignore environment files (never push .env)
-**/.env
-
-# Log files
-*.log
-
-# MacOS / Windows / Linux OS junk files
-.DS_Store
-Thumbs.db
-
-# IDE/editor folders
+node_modules/
 .vscode/
-.idea/
+*.log
+*.zip
+*.mp4
+*.exe
+*.iso
+build/
+dist/
+.env
